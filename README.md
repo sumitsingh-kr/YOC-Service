@@ -13,6 +13,6 @@ You, as a big data engineer, must architect and build a solution to cater to the
 
 Tools and Technology used:
 
-ingestion : sqoop and kafka
-Processing : Spark
+ingestion : sqoop and kafka,
+Processing : Spark,
 Visualization matplotlib
