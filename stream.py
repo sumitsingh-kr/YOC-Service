@@ -8,7 +8,7 @@ import os
 from pandas.core.indexes.base import Index
 my_consumer = KafkaConsumer(  
     'de-capstone3',  
-    bootstrap_servers = ['18.211.252.152 : 9092'],  
+    bootstrap_servers = ['ip : port'],  
     auto_offset_reset = 'earliest',  
     enable_auto_commit = True,   
     value_deserializer = lambda x : (x.decode('utf-8'))  
